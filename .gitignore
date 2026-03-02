@@ -1,1 +1,30 @@
-/venv
+# Environnement virtuel
+venv/
+
+# Python
+__pycache__/
+*.py[cod]
+
+# Base de données locale
+db.sqlite3
+
+# Fichiers media (uploads utilisateurs)
+media/
+
+# Tests / Coverage
+.coverage
+htmlcov/
+.pytest_cache/
+
+# Fichiers statiques collectés
+staticfiles/
+
+# Rapports ou analyses locales
+Analyse/
+
+# IDEs
+.vscode/
+.idea/
+
+# Logs
+*.log

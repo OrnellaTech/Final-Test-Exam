@@ -1,0 +1,6 @@
+[run]
+source = client,customer,shop
+omit =
+    */migrations/*
+    */tests/*
+    */__init__.py
